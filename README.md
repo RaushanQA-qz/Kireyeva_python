@@ -1,17 +1,14 @@
-# Technical Task for Andersen QA Traineeship
-**Candidate:** Raushan Kireeva
-**Stack:** Python
+Technical Task for Andersen QA Traineeship
+Candidate: Raushan Kireyeva Stack: Python
 
-## Ответы на логические вопросы
+Answers to questions
+1. Bracket sequence Given: [((())()(())]]
 
-### 1. Последовательность скобок
-**Дано:** `[((())()(())]]`
+Is this sequence correct? No, it is not correct.
 
-* **Является ли она правильной?** Нет, она некорректна.
-* **Что нужно изменить?** В последовательности есть дисбаланс: одна лишняя закрывающая квадратная скобка `]` в конце и не хватает одной закрывающей круглой скобки `)` для баланса внутренних пар.
-* **Исправленный вариант:** `[((())()(()))]`
+What needs to be changed? There is an extra square bracket at the end, and one round bracket is missing inside. To make it correct, the sequence should look like this: [((())()(()))]
 
-## Инструкция по запуску (Bonus points)
-1. Убедитесь, что у вас установлен Python.
-2. Запустите скрипт через терминал командой: `python main.py`
-3. Следуйте интерактивным подсказкам в консоли для ввода данных.
+How to run the program
+Use the main.py file to run the program. It works in the console. You will need to enter data (numbers or a name) when the program asks for it, and it will show the results immediately.
+
+To run it in your terminal, use this command: python main.py
