@@ -1,15 +1,39 @@
-Technical Task for Andersen QA Traineeship
-Candidate: Raushan Kireyeva Stack: Python
+Technical Task: Python Automation Basics
+Candidate: Raushan Kireyeva
 
-Answers to questions
-Bracket sequence Given: [((())()(())]]
+Role: Junior QA Automation Engineer
 
-1. Is this sequence correct? No, it is not correct.
+Stack: Python 3.10+
 
-2. What needs to be changed? There is an extra square bracket at the end, and one round bracket is missing inside. To make it correct, the sequence should look like this:
-   [((())()(()))]
+Key Project Features
+I have polished this code to meet high-quality standards (Junior+ level):
 
-How to run the program
-Use the main.py file to run the program. It works in the console. You will need to enter data (numbers or a name) when the program asks for it, and it will show the results immediately.
+PEP 8 Compliant: The code is clean, readable, and follows Python's official style guide.
 
-To run it in your terminal, use this command: python main.py
+Advanced Error Handling: Used try-except blocks to prevent crashes during invalid user input.
+
+Smart Validation: * Name check is now case-insensitive (works for "John", "john", etc.).
+
+Supports both integers and floats.
+
+Improved array processing: the program ignores non-numeric values without stopping.
+
+Logic Answers
+1. Bracket Sequence
+Given: [((())()(())]]
+
+Is it correct? No.
+
+What to fix: There is an extra square bracket ] at the end and a missing closing round bracket ) inside.
+
+Corrected version: [((())()(()))]
+
+How to Run
+Ensure you have Python installed.
+
+Clone the repository and navigate to the folder.
+
+Run the script using the terminal:
+python main.py
+
+Follow the interactive prompts in the console.
