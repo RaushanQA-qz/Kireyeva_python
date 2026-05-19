@@ -1,39 +1,77 @@
-Technical Task: Python Automation Basics
-Candidate: Raushan Kireyeva
+# QA Test Assignment
 
-Role: Junior QA Automation Engineer
+Technical task completed as part of the Andersen QA Traineeship application process.
 
-Stack: Python 3.10+
+---
 
-Key Project Features
-I have polished this code to meet high-quality standards (Junior+ level):
+## Candidate
 
-PEP 8 Compliant: The code is clean, readable, and follows Python's official style guide.
+Raushan Kireyeva
 
-Advanced Error Handling: Used try-except blocks to prevent crashes during invalid user input.
+## Role
 
-Smart Validation: * Name check is now case-insensitive (works for "John", "john", etc.).
+Junior QA Automation Engineer
 
-Supports both integers and floats.
+## Stack
 
-Improved array processing: the program ignores non-numeric values without stopping.
+* Python 3.10+
 
-Logic Answers
-1. Bracket Sequence
-Given: [((())()(())]]
+---
 
-Is it correct? No.
+## Project Overview
 
-What to fix: There is an extra square bracket ] at the end and a missing closing round bracket ) inside.
+This project demonstrates:
 
-Corrected version: [((())()(()))]
+* analytical thinking
+* problem-solving skills
+* Python automation basics
+* input validation
+* error handling
+* structured documentation
 
-How to Run
-Ensure you have Python installed.
+---
 
-Clone the repository and navigate to the folder.
+## Key Project Features
 
-Run the script using the terminal:
+* PEP 8 compliant code structure
+* Clean and readable formatting
+* Advanced error handling using try-except
+* Case-insensitive validation
+* Support for integers and float values
+* Improved array processing with invalid input filtering
+
+---
+
+## Logic Answers
+
+### Bracket Sequence
+
+Given sequence:
+
+[((())()(())]]
+
+### Is this sequence correct?
+
+No, the sequence is incorrect.
+
+### What needs to be fixed?
+
+* One extra square bracket ] at the end
+* One missing closing round bracket )
+
+### Correct sequence
+
+[((())()(()))]
+
+---
+
+## How to Run
+
+1. Install Python 3.10+
+2. Clone the repository
+3. Open terminal in the project folder
+4. Run the following command:
+
 python main.py
 
-Follow the interactive prompts in the console.
+5. Follow the console instructions
